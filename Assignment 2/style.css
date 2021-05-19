@@ -1,0 +1,23 @@
+table {
+    width:40%;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    color:rgb(43, 42, 42); 
+    background-color: rgb(250, 243, 221);
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+.select-total{
+    border: 3px solid rgb(255, 0, 0);  
+}
+.table-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
